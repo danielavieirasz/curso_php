@@ -1,0 +1,58 @@
+
+public class Colchao implements
+  colchao_comparable <colchao>{
+     private int qtMolas;
+     private String modelo;
+
+public Colchao ( int qtMolas,
+    String modelo){
+
+    super( );
+   this.qtMolas = qtMolas;
+    this.modelo = modelo;
+
+}
+public int setQtMolas( ){
+   return qtMolas;
+
+}
+
+public void setQtMolas(int qtMolas){
+     this.qtMolas = qtMolas;
+
+}
+
+public String getModelo ( ) {
+return modelo;
+}
+public void setModelo (String
+modelo ){
+this.modelo= modelo;
+}
+ 
+public int compareTo(colchao
+matt)
+ return this getModelo()
+.compareTo(matt.getModelo());
+
+   }
+
+
+public class colchao_comparable{
+public static void main ( String [ ] args )
+colchao matt1 = colchao casal (200, "Herval")
+colchao matt2 = colchao casal(270, "MaxFlex")
+Coclhao matt3 = colchao casal (196, "Problel")
+
+List<Colchao> lista= 
+arrayList<colchao>( );
+lista.add(matt1);
+lista.add(matt2);
+lista.add(matt3);
+
+collections.sort(lista);
+for(colchao.matt : lista){
+system.out.print("Modelo"
++ colchao.getModelo)
+  }
+ } 
